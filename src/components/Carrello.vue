@@ -1,6 +1,7 @@
 <template>
   <div class="container">
       carrello
+     <i class="far fa-circle"></i>
   </div>
 </template>
 

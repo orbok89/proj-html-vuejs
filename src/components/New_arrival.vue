@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-      prova
+    <div>Nuovi New_arrival</div>
   </div>
 </template>
 

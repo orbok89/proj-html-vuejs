@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-      prova
+      footer
   </div>
 </template>
 

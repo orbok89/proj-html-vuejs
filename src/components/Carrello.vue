@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-      prova
+      carrello
   </div>
 </template>
 

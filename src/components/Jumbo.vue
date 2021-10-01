@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-      prova
+       
   </div>
 </template>
 
@@ -12,9 +12,11 @@ export default {
 
 <style scoped  lang="scss">
     .container{
-        width: 80% ;
-        height: 200px;
-        background-color: aquamarine;
+        width: 100% ;
+        height: 400px;
+        background-image: url('../assets/home1_slide_three_bg_2.jpg');
+        background-size: cover;
         margin: 0 auto;
+         
     }
 </style>

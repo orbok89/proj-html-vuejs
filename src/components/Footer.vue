@@ -38,7 +38,7 @@
                   </div>
                   <div class="flex-avatar mt">
                     <div>
-                        <div> Leather gloves</div>
+                        <div> Leather Gloves</div>
                         <div class="mtb"><i class="fas fa-star "></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
                         <div> $45</div>
                     </div>
@@ -47,20 +47,20 @@
                   </div>
                     <div class="flex-avatar mt">
                     <div>
-                        <div> Leather gloves</div>
+                        <div>  Black Leather Jacket</div>
                         <div class="mtb"><i class="fas fa-star "></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div> $45</div>
+                        <div> <span class="reset">$250</span> $200</div>
                     </div>
-                    <div> <img  class="resize-avatar" src="@/assets/leather_gloves-120x156.jpg" alt=""></div>
+                    <div> <img  class="resize-avatar" src="@/assets/black_elegant_leather_jacket-400x520.jpg" alt=""></div>
 
                   </div>
                     <div class="flex-avatar mt">
                     <div>
-                        <div> Leather gloves</div>
+                        <div> Spring Printed Dress</div>
                         <div class="mtb"><i class="fas fa-star "></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div> $45</div>
+                        <div> $48</div>
                     </div>
-                    <div> <img  class="resize-avatar" src="@/assets/leather_gloves-120x156.jpg" alt=""></div>
+                    <div> <img  class="resize-avatar" src="@/assets/spring_printed_dress-400x520.jpg" alt=""></div>
 
                   </div>
               </div>
@@ -115,6 +115,11 @@ export default {
 </script>
 
 <style scoped  lang="scss">
+.reset{
+    border: 0;
+    padding: 0%;
+    text-decoration-line: line-through;
+}
     
     .pagamenti{
         margin: 0 auto;

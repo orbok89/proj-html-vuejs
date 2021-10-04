@@ -6,7 +6,7 @@
           <div class="margine">
                 <div class="grande">70% off</div>
                 <div class="testo">
-                     ratione assumenda deleniti placea quaerat repellendus rerum minus?
+                     ratione assumenda deleniti placea quaerat repellendus 
                 </div>
                 <div class="pulsante"> VIEW MORE</div>
           </div>
@@ -15,7 +15,7 @@
           <div class="margine">
                 <div class="grande">Free shipping</div>
                 <div class="testo">
-                     ratione assumenda deleniti placea quaerat repellendus rerum minus?
+                     ratione assumenda deleniti placea quaerat minus?
                 </div>
                 <div class="pulsante"> VIEW MORE</div>
           </div>

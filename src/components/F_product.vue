@@ -10,25 +10,25 @@
               <img   class="resize" src="@/assets/black_elegant_leather_jacket-400x520.jpg" alt="">
               <div class="mtb"><strong>Black Leather Jacket</strong></div>
               <div class="mtb">Men,Jacket,Jeans</div>
-              <div class="mtb">$200</div>
+              <div class="mtb soldi"><span class="reset">$250</span> $200</div>
           </div>
           <div class="colon">
               <img   class="resize" src="@/assets/black_leather_suit-400x520.jpg" alt="">
-              <div class="mtb"><strong>Black Leather Jacket</strong></div>
-              <div class="mtb">Men,Jacket,Jeans</div>
-              <div class="mtb">$200</div>
+              <div class="mtb"><strong>Black Leather Suit</strong></div>
+              <div class="mtb">Men,Jacket</div>
+              <div class="mtb soldi">$179</div>
           </div>
           <div class="colon">
               <img   class="resize" src="@/assets/blue_jacket_and_white_stripe_tee-400x520.jpg" alt="">
-              <div class="mtb"><strong>Black Leather Jacket</strong></div>
+              <div class="mtb"><strong>Black Jacket & Stripe Tee</strong></div>
               <div class="mtb">Men,Jacket,Jeans</div>
-              <div class="mtb">$200</div>
+              <div class="mtb soldi">$520</div>
           </div>
           <div class="colon">
-              <img   class="resize" src="@/assets/black_elegant_leather_jacket-400x520.jpg" alt="">
-              <div class="mtb"><strong>Black Leather Jacket</strong></div>
-              <div class="mtb">Men,Jacket,Jeans</div>
-              <div class="mtb">$200</div>
+              <img   class="resize" src="@/assets/modern_black_leather_suit-400x520.jpg" alt="">
+              <div class="mtb"><strong> Modern Black Leather Suit</strong></div>
+              <div class="mtb">Men,Jacket</div>
+              <div class="mtb soldi">$86</div>
           </div>
       </div>
   </div>
@@ -41,6 +41,15 @@ export default {
 </script>
 
 <style scoped  lang="scss">
+.soldi{
+    color: #548BC4;
+}
+.reset{
+    border: 0;
+    padding: 0%;
+    text-decoration-line: line-through;
+}
+    
 .resize{
     width: 100%;
 }
@@ -56,7 +65,7 @@ export default {
 .no-border{
     border-left: 0px;
     border-right: 0px;
-    background-color: #F6F6F6;
+    
 }
  span{
         border: 1px solid gray;
@@ -100,5 +109,8 @@ h2:after {
 .centro{
     text-align: center;
     margin-bottom: 30px;
+}
+span:hover{
+    background-color: #F6F6F6;
 }
 </style>

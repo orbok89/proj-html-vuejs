@@ -56,6 +56,11 @@ export default {
         color: white;
         border-radius: 20px;
         margin: 10px;
+        width: 90px;
+        font-size: 15px;
+        height: 22px;
+        line-height: 22px;
+        text-align: center;
     }
     .immagi{
         width: 25%;
@@ -128,5 +133,10 @@ export default {
         width: 100%;
        
         border-bottom:1px solid #d1d1d1;
+    }
+    .pulsante:hover{
+        font-size: 12px;
+        padding: 8px 20px;
+        background-color: wheat;
     }
 </style>

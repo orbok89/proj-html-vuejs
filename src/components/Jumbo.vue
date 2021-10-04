@@ -88,5 +88,6 @@ export default {
     .bran{
       margin-top: 150px;
       font-size: 45px;
+      font-weight: 600;
     }
 </style>

@@ -57,7 +57,7 @@ export default {
      
 }
     .container{
-        width: 80% ;
+        width: 70% ;
         height: 500px;
         margin: 0 auto;
     }

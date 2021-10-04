@@ -69,22 +69,22 @@
                       RECENT POST
                   </div>
                   <div class=" post">
-                      <i class="fas fa-angle-right "></i> Lorem ipsum dolor sit  consectetur  
+                      <i class="fas fa-angle-right "></i> Lorem ipsum dolor sit    
                   </div>
                   <div class=" post">
-                      <i class="fas fa-angle-right "></i> Lorem ipsum dolor sit  consectetur  
+                      <i class="fas fa-angle-right "></i>  ipsum dolor sit  consectetur  
                   </div>
                   <div class=" post">
-                      <i class="fas fa-angle-right "></i> Lorem ipsum dolor sit  consectetur  
+                      <i class="fas fa-angle-right "></i> Lorem ipsum  sit  consectetur  
                   </div>
                   <div class=" post">
-                      <i class="fas fa-angle-right "></i> Lorem ipsum dolor sit  consectetur  
+                      <i class="fas fa-angle-right "></i> Lorem ipsum dolor sit    
                   </div>
                   <div class=" post">
-                      <i class="fas fa-angle-right "></i> Lorem ipsum dolor sit  consectetur  
+                      <i class="fas fa-angle-right "></i>  ipsum dolor sit  consectetur  
                   </div>
                  <div class=" post">
-                      <i class="fas fa-angle-right "></i> Lorem ipsum dolor sit  consectetur  
+                      <i class="fas fa-angle-right "></i> Lorem  dolor sit  consectetur  
                   </div>
               </div>
               <div class="colonna">
@@ -97,7 +97,13 @@
       </div>
       <div class="riga-3">
           <div class="centratura"> Copyright 2012-2020  |  Avada Theme by Theme Fusion  |  All rights Reserved  |  Powered by WordPress </div>
-            <div class="pagamenti"><i class="fab fa-cc-visa mr"></i> <i class="fab fa-cc-paypal marg"></i> <i class="fab fa-cc-mastercard"></i><i class="fab fa-cc-discover"></i><i class="fab fa-amazon"></i></div>
+            <div class="pagamenti">
+                <i class="fab fa-cc-visa "></i>
+                 <i class="fab fa-cc-paypal "></i>
+                  <i class="fab fa-cc-mastercard"></i>
+                  <i class="fab fa-cc-discover"></i>
+                  <i class="fab fa-amazon"></i>
+                  </div>
       </div>
   </div>
 </template>
@@ -109,16 +115,13 @@ export default {
 </script>
 
 <style scoped  lang="scss">
-    .marg{
-        padding: 50px;
-        margin: 33px;
-    }
+    
     .pagamenti{
         margin: 0 auto;
         font-size: 30px;
         color: white;
         text-align: center;
-           width: 15%;
+        width: 15%;
         justify-content: space-between;
         display: flex;
         align-items: center;
@@ -186,7 +189,7 @@ export default {
     }
     .contenitore-2{
         display: flex;
-        width: 80%;
+        width: 70%;
         height: 350px;
         margin: 0 auto;
         padding-top: 50px;
@@ -228,7 +231,7 @@ export default {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 80%;
+        width: 70%;
         height: 150px;
         margin: 0 auto;
     }

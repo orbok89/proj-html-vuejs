@@ -71,7 +71,7 @@ export default {
     }
 
     .sotto{
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -80,13 +80,13 @@ export default {
         margin-left: 5px;
     }
     .shopping{
-        width: 25%;
+        width: 30%;
     }
     .account{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 25%;
+        width: 30%;
         border: 1px solid #d1d1d1;
         height: 70px;
     }
@@ -114,7 +114,7 @@ export default {
         
         display: flex;
         justify-content: space-between;
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
     }
     .container{

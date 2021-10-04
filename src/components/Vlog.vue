@@ -11,15 +11,15 @@
             </div>
             <div class="colonnina">
                 <img class="resize" src="@/assets/post_img_11-300x188.jpg" alt="">
-                <div><strong> la ragazza nella natura</strong></div>
-                <div>lorem ipsumm</div>
+                <div class="mt"><strong> la ragazza nella natura</strong></div>
+                <div class="mb">lorem ipsumm</div>
                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus et nam placeat suscipit magnam nemo nihil consequatur quasi aperiam. Officiis itaque consequuntur provident esse ea in est ipsum porro ipsa!</div>
             
             </div>
             <div class="colonnina">
                 <img class="resize" src="@/assets/post_img_12-300x188.jpg" alt="">
-                <div><strong> la ragazza nella natura</strong></div>
-                <div>lorem ipsumm</div>
+                <div class="mt"><strong> la ragazza nella natura</strong></div>
+                <div class="mb">lorem ipsumm</div>
                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus et nam placeat suscipit magnam nemo nihil consequatur quasi aperiam. Officiis itaque consequuntur provident esse ea in est ipsum porro ipsa!</div>
             
             </div>

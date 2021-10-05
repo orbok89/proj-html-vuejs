@@ -8,23 +8,91 @@
      
       <div class="flex">
           <div class="colon">
-              <img   class="resize" src="@/assets/spring_printed_dress-400x520.jpg" alt="">
+              
+            <div class="scatola">
+                <div class="layout-nero"></div>
+                <img   class="resize" src="@/assets/spring_printed_dress-400x520.jpg" alt="">
+                <div class="dietro"> 
+                    <div > Modern Black Leather Suit</div>
+                    <div class="mtb" >Men,Jacket</div>
+                    <div >$86</div>
+                </div>
+                <div class="sottocolle">
+                    <div class="margine-destro"> <i class="fas fa-shopping-cart"></i> add to cart</div>
+                    <div><i class="fas fa-bars"></i> Dettails</div>
+                </div>
+            </div>
               
           </div>
           <div class="colon">
-              <img   class="resize" src="@/assets/modern_love_tee-400x520.jpg" alt="">
+             
+                <div class="scatola">
+                <div class="layout-nero"></div>
+                <img   class="resize" src="@/assets/modern_love_tee-400x520.jpg" alt="">
+                <div class="dietro"> 
+                    <div > Modern Black Leather Suit</div>
+                    <div class="mtb" >Men,Jacket</div>
+                    <div >$86</div>
+                </div>
+                <div class="sottocolle">
+                    <div class="margine-destro"> <i class="fas fa-shopping-cart"></i> add to cart</div>
+                    <div><i class="fas fa-bars"></i> Dettails</div>
+                </div>
+            </div>
            
           </div>
           <div class="colon">
-              <img   class="resize" src="@/assets/black_leather_jacket-400x520.jpg" alt="">
+  
+                  
+            <div class="scatola">
+                <div class="layout-nero"></div>
+                         <img   class="resize" src="@/assets/black_leather_jacket-400x520.jpg" alt="">
+                <div class="dietro"> 
+                    <div > Modern Black Leather Suit</div>
+                    <div class="mtb" >Men,Jacket</div>
+                    <div >$86</div>
+                </div>
+                <div class="sottocolle">
+                    <div class="margine-destro"> <i class="fas fa-shopping-cart"></i> add to cart</div>
+                    <div><i class="fas fa-bars"></i> Dettails</div>
+                </div>
+            </div>
              
           </div>
           <div class="colon">
-              <img   class="resize" src="@/assets/black_elegant_leather_jacket-400x520.jpg" alt="">
+             
+                  
+            <div class="scatola">
+                <div class="layout-nero"></div>
+                 <img   class="resize" src="@/assets/black_elegant_leather_jacket-400x520.jpg" alt="">
+                <div class="dietro"> 
+                    <div > Modern Black Leather Suit</div>
+                    <div class="mtb" >Men,Jacket</div>
+                    <div >$86</div>
+                </div>
+                <div class="sottocolle">
+                    <div class="margine-destro"> <i class="fas fa-shopping-cart"></i> add to cart</div>
+                    <div><i class="fas fa-bars"></i> Dettails</div>
+                </div>
+            </div>
              
           </div>
           <div class="colon">
-              <img   class="resize" src="@/assets/hipster_black_top-400x520.jpg" alt="">
+           
+                  
+            <div class="scatola">
+                <div class="layout-nero"></div>
+                   <img   class="resize" src="@/assets/hipster_black_top-400x520.jpg" alt="">
+                <div class="dietro"> 
+                    <div > Modern Black Leather Suit</div>
+                    <div class="mtb" >Men,Jacket</div>
+                    <div >$86</div>
+                </div>
+                <div class="sottocolle">
+                    <div class="margine-destro"> <i class="fas fa-shopping-cart"></i> add to cart</div>
+                    <div><i class="fas fa-bars"></i> Dettails</div>
+                </div>
+            </div>
              
           </div>
       </div>
@@ -38,6 +106,54 @@ export default {
 </script>
 
 <style scoped  lang="scss">
+.margine-destro{
+    margin-right: 60px;
+}
+.sottocolle{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    display: none;
+    font-size: 8px;
+    justify-content: space-between;
+    color: white;
+}
+.scatola{
+     
+    position: relative;
+     
+}
+.dietro{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 10px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+   
+}
+.layout-nero{
+    display: none;
+    position: absolute;
+    inset: 0 0 4px;
+    background-image: linear-gradient(rgba(0, 17, 255, 0.35), rgba(255, 0, 119, 0.35));
+     
+}
+.scatola:hover .dietro {
+    
+    display:  inline;
+}
+.scatola:hover .layout-nero{
+    
+   display:  inline;
+}
+.scatola:hover .sottocolle{
+    
+   display:  flex;
+}
 .freccia-r{
     position: absolute;
     right: 0%;
@@ -46,6 +162,7 @@ export default {
     background-color: rgba(0, 0, 0, 0.378);
     color: white;
     font-size: 20px;
+    z-index: 100;
 }
 .freccia-l{
     position: absolute;
@@ -55,6 +172,7 @@ export default {
     background-color: rgba(0, 0, 0, 0.378);
     color: white;
     font-size: 20px;
+    z-index: 100;
 }
 .resize{
     width: 100%;

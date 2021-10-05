@@ -85,13 +85,13 @@ export default {
         margin-left: 5px;
     }
     .shopping{
-        width: 30%;
+        width: 35%;
     }
     .account{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 30%;
+        width: 35%;
         border: 1px solid #d1d1d1;
         height: 70px;
     }
@@ -111,7 +111,7 @@ export default {
     .spesa{
         display: flex;
         align-items: center;
-        width: 40%;
+        width: 45%;
         height: 70px;
          
     }

@@ -12,7 +12,7 @@
              <div class="dollaro">$</div> 39
              </div> 
              
-             <div>on sale </div>
+             <div class="sale">on sale </div>
            </div>
   </div>
 </template>
@@ -24,6 +24,9 @@ export default {
 </script>
 
 <style scoped  lang="scss">
+.sale{
+  font-size: 12 px;
+}
   .dollaro{
     font-size: 12px;
     position: absolute;

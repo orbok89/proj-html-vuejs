@@ -7,25 +7,44 @@
       </div>
       <div class="flex">
           <div class="colon">
-              <img   class="resize" src="@/assets/black_elegant_leather_jacket-400x520.jpg" alt="">
+              <div class="scatola">
+                  <div class="layout-nero"></div>
+                  <img   class="resize" src="@/assets/black_elegant_leather_jacket-400x520.jpg" alt="">
+                  <div class="dietro"><i class="far fa-check-square"></i></div>
+              </div>
               <div class="mtb"><strong>Black Leather Jacket</strong></div>
               <div class="mtb">Men,Jacket,Jeans</div>
               <div class="mtb soldi"><span class="reset">$250</span> $200</div>
           </div>
           <div class="colon">
-              <img   class="resize" src="@/assets/black_leather_suit-400x520.jpg" alt="">
+                <div class="scatola">
+                  <div class="layout-nero"></div>
+                  <img   class="resize" src="@/assets/black_leather_suit-400x520.jpg" alt="">
+                  <div class="dietro"><i class="far fa-check-square"></i></div>
+              </div>
+               
               <div class="mtb"><strong>Black Leather Suit</strong></div>
               <div class="mtb">Men,Jacket</div>
               <div class="mtb soldi">$179</div>
           </div>
           <div class="colon">
-              <img   class="resize" src="@/assets/blue_jacket_and_white_stripe_tee-400x520.jpg" alt="">
+                  <div class="scatola">
+                  <div class="layout-nero"></div>
+                  <img   class="resize" src="@/assets/blue_jacket_and_white_stripe_tee-400x520.jpg" alt="">
+                  <div class="dietro"><i class="far fa-check-square"></i></div>
+              </div>
+              
               <div class="mtb"><strong>Black Jacket & Stripe Tee</strong></div>
               <div class="mtb">Men,Jacket,Jeans</div>
               <div class="mtb soldi">$520</div>
           </div>
           <div class="colon">
-              <img   class="resize" src="@/assets/modern_black_leather_suit-400x520.jpg" alt="">
+                    <div class="scatola">
+                  <div class="layout-nero"></div>
+                  <img   class="resize"  src="@/assets/modern_black_leather_suit-400x520.jpg"  alt="">
+                  <div class="dietro"><i class="far fa-check-square"></i></div>
+              </div>
+              
               <div class="mtb"><strong> Modern Black Leather Suit</strong></div>
               <div class="mtb">Men,Jacket</div>
               <div class="mtb soldi">$86</div>
@@ -41,6 +60,37 @@ export default {
 </script>
 
 <style scoped  lang="scss">
+.scatola{
+     
+    position: relative;
+     
+}
+.dietro{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 28px 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+}
+.layout-nero{
+    display: none;
+    position: absolute;
+    inset: 0 0 4px;
+    background-image: linear-gradient(rgba(0, 17, 255, 0.35), rgba(255, 0, 119, 0.35));
+     
+}
+.scatola:hover .dietro {
+    
+    display:  inline;
+}
+.scatola:hover .layout-nero{
+    
+   display:  inline;
+}
 .soldi{
     color: #548BC4;
 }
@@ -51,7 +101,9 @@ export default {
 }
     
 .resize{
+     
     width: 100%;
+     
 }
 .colon{
     width: 25%;
